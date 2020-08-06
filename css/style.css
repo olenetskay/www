@@ -16,6 +16,10 @@ a {
     text-decoration: none;
 }
 
+ul {
+  list-style-type: none;
+}
+
 .header-menu {
   font-size: 12px;
   font-weight: 700;
@@ -173,4 +177,181 @@ a {
   font-weight: 800;
   text-transform: uppercase;
   background-color: #1085e4;
+}
+
+.details-text h2 {
+  font-size: 40px;
+  font-weight: 600;
+  color: #192b59;
+}
+
+.details-text h2 span {
+  font-size: 18px;
+  font-weight: 800;
+  color: #1085e4;
+  display: block;
+  text-transform: uppercase;
+}
+
+.clients-text h2 {
+  font-size: 40px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.clients-text h2 span {
+  font-size: 18px;
+  font-weight: 800;
+  color: #85c8ff;
+  display: block;
+  text-transform: uppercase;
+}
+
+.client .name {
+  font-size: 22px;
+  font-weight: 600;
+  color: #000958;
+}
+
+.client .position {
+  font-size: 14px;
+  font-weight: 800;
+  color: #1085e4;
+  text-transform: uppercase;
+}
+
+.plan h2 {
+  font-size: 40px;
+  font-weight: 600;
+  color: #192b59;
+}
+
+.plan h2 span {
+  font-size: 18px;
+  font-weight: 800;
+  color: #1085e4;
+  display: block;
+  text-transform: uppercase;
+}
+
+.plan-box-item h3 {
+  font-size: 70px;
+  font-weight: 800;
+  color: #000958;
+}
+
+.plan-box-item h3 .span1 {
+  font-size: 20px;
+  font-weight: 400;
+  color: #192b59;
+}
+
+.plan-box-item h3 .span2 {
+  font-size: 20px;
+  font-weight: 400;
+  color: #7b8ab2;
+}
+
+.plan-box-item p strong {
+  font-size: 14px;
+  font-weight: 800;
+  color: #1085e4;
+  text-transform: uppercase;
+}
+
+.plan-box-item a {
+  font-size: 12px;
+  font-weight: 800;
+  color: #8085b1;
+  text-transform: uppercase;
+}
+
+.plan-box-item-active h3 {
+  font-size: 70px;
+  font-weight: 800;
+  color: #fff;
+}
+
+.plan-box-item-active h3 span1 {
+  font-size: 20px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.plan-box-item-active h3 span2 {
+  font-size: 20px;
+  font-weight: 400;
+  color: #400;
+}
+.plan-box-item-active p strong {
+  font-size: 14px;
+  font-weight: 800;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.plan-box-item-active ul{
+  color: #fff;
+  list-style-type: none;
+}
+
+.plan-box-item-active a {
+  font-size: 12px;
+  font-weight: 800;
+  color: #fff;
+  text-transform: uppercase;
+  background-color: #1a88e1;
+}
+
+.team h2 {
+  font-size: 40px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.team h2 span {
+  font-size: 18px;
+  font-weight: 800;
+  color: #85c8ff;
+  text-transform: uppercase;
+}
+
+.team-box-item h3 {
+  font-size: 26px;
+  font-weight: 600;
+  color: #192b59;
+}
+
+.team-box-item h3 span {
+  font-size: 14px;
+  font-weight: 800;
+  color: #1a88e1;
+  text-transform: uppercase;
+  display: block;
+}
+
+.form h2 {
+  font-size: 50px;
+  font-weight: 600;
+  color: #192b59;
+}
+
+.form form button {
+  font-size: 12px;
+  font-weight: 600;
+  color: #fff;
+  text-transform: uppercase;
+  background-color: #1085e4;
+  letter-spacing: 1.5px;
+}
+
+footer {
+  font-size: 16px;
+  font-weight: 400;
+  color: #b6bae0;
+}
+
+footer p a {
+  color: #1085e4;
+  text-transform: uppercase;
 }
