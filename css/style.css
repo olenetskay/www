@@ -1,16 +1,176 @@
 body {
   font-family: 'Open Sans', sans-serif;
+  color: #7581a1;
+  line-height: 26px;
+  font-size: 16px;
+  font-weight: 400;
 }
 
 h1 {
   font-size: 80px;
   font-weight: 600;
+  color: #192b59;
+}
+
+a {
+    text-decoration: none;
 }
 
 .header-menu {
   font-size: 12px;
-  font-weight: 400;
-  color: rgb(110, 126, 169);
+  font-weight: 700;
+  color: #6e7ea9;
   list-style-type: none;
   text-transform: uppercase;
+}
+
+.header-menu-li {
+  display: inline-block;
+}
+
+.btn-header {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 12px;
+  background-color: #1085e4;
+}
+
+.grid-screen h2 {
+  font-size: 40px;
+  font-weight: 800;
+  color: #192b59;
+}
+
+.grid-screen h2 span {
+  font-size: 14px;
+  color: #1085e4;
+  display: block;
+  text-transform: uppercase;
+}
+
+.grid-element h3 {
+  font-size: 20px;
+  color: #192b59;
+  font-weight: 600;
+}
+
+.grid-element a {
+  font-size: 14px;
+  color: #1085e4;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.grid-screen .qoute {
+  font-size: 14px;
+  color: #1085e4;
+  font-weight: 400;
+}
+
+.grid-screen .qoute span {
+  font-size: 16px;
+  color: #192b59;
+  font-weight: 600;
+}
+
+.robot-form-text h2 {
+  font-size: 50px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.robot-form-text h2 span {
+  font-size: 14px;
+  color: #00bffe;
+  font-weight: 400;
+  text-transform: uppercase;
+  display: block;
+}
+
+.robot-form-text p {
+  font-size: 18px;
+  color: #dfe8ff;
+  font-weight: 400;
+}
+
+.screenshot-2 h2 {
+  font-size: 50px;
+  color: #192b59;
+  font-weight: 600;
+}
+
+.screenshot-2 dl dt {
+  font-size: 16px;
+  color: #5a6789;
+  font-weight: 800;
+}
+
+.fun-facts h2 {
+  font-size: 50px;
+  color: #192b59;
+  font-weight: 600;
+}
+
+.fun-facts h2 span {
+  font-size: 16px;
+  color: #1085e4;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.fun-facts ul li {
+  font-size: 12px;
+  color: #1085e4;
+  font-weight: 600;
+  text-transform: uppercase;
+  list-style-type: none;
+  display: inline-block;
+  line-height: 26px;
+}
+
+.fun-facts ul li span {
+  font-size: 60px;
+  color: #bacbdc;
+  font-weight: 600;
+  display: block;
+}
+
+.video-text h2{
+  font-size: 50px;
+  color: #192b59;
+  font-weight: 600;
+}
+
+.Available {
+  font-size: 16px;
+  font-weight: 800;
+  color: #c4d2dd;
+  text-transform: uppercase;
+}
+
+.suitable-text h2 {
+  font-size: 50px;
+  color: #192b59;
+  font-weight: 600;
+}
+
+.suitable-text a {
+  font-size: 12px;
+  color: #fff;
+  font-weight: 800;
+  text-transform: uppercase;
+  background-color: #1085e4;
+}
+
+.easy-text h2 {
+  font-size: 50px;
+  color: #192b59;
+  font-weight: 600;
+}
+.easy-text a {
+  font-size: 12px;
+  color: #fff;
+  font-weight: 800;
+  text-transform: uppercase;
+  background-color: #1085e4;
 }
