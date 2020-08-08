@@ -1,9 +1,12 @@
 body {
+  /*about font and text*/
   font-family: 'Open Sans', sans-serif;
   color: #7581a1;
   line-height: 26px;
   font-size: 16px;
   font-weight: 400;
+  /*about width of webpage*/
+  width: 100%;
 }
 
 h1 {
@@ -34,9 +37,54 @@ ul {
 
 .btn-header {
   color: #ffffff;
-  font-weight: 400;
-  font-size: 12px;
+  font-weight: 600;
+  font-size: 10px;
+  letter-spacing: 0.5px;
   background-color: #1085e4;
+  padding: 16px 44px;
+  border: 1px solid #1085e4;
+  border-radius: 30px;
+}
+
+.btn-header:hover {
+  background-color: #192b59;
+  border: 1px solid #192b59;
+}
+
+.header-screen .buttons .btn-start {
+  font-size: 10px;
+  font-weight: 800;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  background-color: #1085e4;
+  padding: 15px 34px;
+  border: 1px solid #1085e4;
+  border-radius: 30px;
+}
+
+.header-screen .buttons .btn-start:hover {
+  color: #192b59;
+  background-color: #cbdbe8;
+  border: 1.5px solid #192b59;
+}
+
+.header-screen .buttons .btn-more {
+  font-size: 10px;
+  font-weight: 800;
+  color: #7e8bae;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  background-color: #cbdbe8;
+  padding: 15px 30px;
+  border: 1px solid #cbdbe8;
+  border-radius: 30px;
+}
+
+.header-screen .buttons .btn-more:hover {
+  color: #fff;
+  background-color: #192b59;
+  border: 1px solid #192b59;
 }
 
 .grid-screen h2 {
@@ -95,6 +143,24 @@ ul {
   font-size: 18px;
   color: #dfe8ff;
   font-weight: 400;
+}
+
+.robot-form-text button {
+  font-size: 11px;
+  font-weight: 600;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1.4px;
+  background-color: #1085e4;
+  padding: 13px 35px;
+  border-radius: 30px;
+  border: 0px;
+}
+
+.robot-form-text button:hover {
+  color: #1085e4;
+  background-color: #cbdbe8;
+  border: 0px;
 }
 
 .screenshot-2 h2 {
@@ -166,6 +232,41 @@ ul {
   background-color: #1085e4;
 }
 
+.suitable .suitable-block .suitable-text a {
+  font-size: 10px;
+  font-weight: 800;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  background-color: #1085e4;
+  padding: 15px 34px;
+  border: 1px solid #1085e4;
+  border-radius: 30px;
+}
+
+.suitable .suitable-block .suitable-text a:hover {
+  color: #192b59;
+  background-color: #cbdbe8;
+  border: 1.5px solid #192b59;
+}
+
+.easy .easy-block .easy-text a {
+  font-size: 10px;
+  font-weight: 800;
+  color: #7e8bae;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  background-color: #cbdbe8;
+  padding: 15px 30px;
+  border: 1px solid #cbdbe8;
+  border-radius: 30px;
+}
+
+.easy .easy-block .easy-text a:hover {
+  color: #fff;
+  background-color: #192b59;
+  border: 1px solid #192b59;
+}
 .easy-text h2 {
   font-size: 50px;
   color: #192b59;
@@ -264,6 +365,11 @@ ul {
   font-weight: 800;
   color: #8085b1;
   text-transform: uppercase;
+  letter-spacing: 1.2px;
+  background-color: #f5faff;
+  border: 1px solid #dce1e5;
+  border-radius: 30px;
+  padding: 13px 42px;
 }
 
 .plan-box-item-active h3 {
@@ -300,7 +406,10 @@ ul {
   font-weight: 800;
   color: #fff;
   text-transform: uppercase;
+  letter-spacing: 1.2px;
   background-color: #1a88e1;
+  padding: 13px 42px;
+  border-radius: 30px;
 }
 
 .team h2 {
@@ -314,6 +423,7 @@ ul {
   font-weight: 800;
   color: #85c8ff;
   text-transform: uppercase;
+  display: block;
 }
 
 .team-box-item h3 {
@@ -336,6 +446,18 @@ ul {
   color: #192b59;
 }
 
+.form form .name {
+  display: block;
+}
+
+.form form .email {
+  display: block;
+}
+
+.form form .message {
+  display: block;
+}
+
 .form form button {
   font-size: 12px;
   font-weight: 600;
@@ -343,6 +465,10 @@ ul {
   text-transform: uppercase;
   background-color: #1085e4;
   letter-spacing: 1.5px;
+  padding: 16px 42px;
+  border: 0px;
+  border-radius: 30px;
+  display: block;
 }
 
 footer {
