@@ -1,3 +1,5 @@
+/**/
+
 body {
   /*about font and text*/
   font-family: 'Open Sans', sans-serif;
@@ -13,6 +15,8 @@ h1 {
   font-size: 80px;
   font-weight: 600;
   color: #192b59;
+  line-height: 62px;
+  max-width: 550px;
 }
 
 a {
@@ -23,16 +27,26 @@ ul {
   list-style-type: none;
 }
 
+.wrap {
+  max-width: 1110px;
+  margin: 0 auto;
+}
 .header-menu {
   font-size: 12px;
   font-weight: 700;
   color: #6e7ea9;
   list-style-type: none;
   text-transform: uppercase;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-screen .header-menu .link {
+  color: #6e7ea9;
 }
 
 .header-menu-li {
-  display: inline-block;
+  padding: 0 15px;
 }
 
 .btn-header {
@@ -44,6 +58,7 @@ ul {
   padding: 16px 44px;
   border: 1px solid #1085e4;
   border-radius: 30px;
+  margin-right: 10px;
 }
 
 .btn-header:hover {
@@ -61,6 +76,7 @@ ul {
   padding: 15px 34px;
   border: 1px solid #1085e4;
   border-radius: 30px;
+  margin-right: 20px;
 }
 
 .header-screen .buttons .btn-start:hover {
@@ -129,14 +145,16 @@ ul {
   font-size: 50px;
   font-weight: 600;
   color: #ffffff;
+  max-width: 450px;
 }
 
 .robot-form-text h2 span {
   font-size: 14px;
   color: #00bffe;
-  font-weight: 400;
+  font-weight: 600;
   text-transform: uppercase;
   display: block;
+  margin-bottom: 10px;
 }
 
 .robot-form-text p {
@@ -167,6 +185,8 @@ ul {
   font-size: 50px;
   color: #192b59;
   font-weight: 600;
+  line-height: 60px;
+  max-width: 580px;
 }
 
 .screenshot-2 dl dt {
@@ -179,6 +199,10 @@ ul {
   font-size: 50px;
   color: #192b59;
   font-weight: 600;
+  line-height: 60px;
+  max-width: 450px;
+  text-align: center;
+  margin: 0 auto;
 }
 
 .fun-facts h2 span {
@@ -186,6 +210,13 @@ ul {
   color: #1085e4;
   font-weight: 600;
   text-transform: uppercase;
+  display: block;
+}
+
+.fun-facts ul {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 70px;
 }
 
 .fun-facts ul li {
@@ -194,8 +225,8 @@ ul {
   font-weight: 600;
   text-transform: uppercase;
   list-style-type: none;
-  display: inline-block;
-  line-height: 26px;
+  line-height: 50px;
+  text-align: center;
 }
 
 .fun-facts ul li span {
@@ -205,10 +236,12 @@ ul {
   display: block;
 }
 
-.video-text h2{
+.video-screen .video-block .video-text h2 {
   font-size: 50px;
   color: #192b59;
   font-weight: 600;
+  line-height: 60px;
+  max-width: 500px;
 }
 
 .Available {
@@ -222,6 +255,8 @@ ul {
   font-size: 50px;
   color: #192b59;
   font-weight: 600;
+  line-height: 60px;
+  max-width: 550px;
 }
 
 .suitable-text a {
@@ -267,11 +302,15 @@ ul {
   background-color: #192b59;
   border: 1px solid #192b59;
 }
+
 .easy-text h2 {
   font-size: 50px;
   color: #192b59;
   font-weight: 600;
+  line-height: 60px;
+  max-width: 450px;
 }
+
 .easy-text a {
   font-size: 12px;
   color: #fff;
@@ -284,6 +323,9 @@ ul {
   font-size: 40px;
   font-weight: 600;
   color: #192b59;
+  line-height: 60px;
+  text-align: center;
+  margin: 0 auto;
 }
 
 .details-text h2 span {
@@ -294,10 +336,15 @@ ul {
   text-transform: uppercase;
 }
 
+.details .details-text img {
+  margin: 70px auto;
+}
+
 .clients-text h2 {
   font-size: 40px;
   font-weight: 600;
   color: #fff;
+  line-height: 60px;
 }
 
 .clients-text h2 span {
@@ -325,6 +372,8 @@ ul {
   font-size: 40px;
   font-weight: 600;
   color: #192b59;
+  line-height: 60px;
+  text-align: center;
 }
 
 .plan h2 span {
@@ -335,10 +384,17 @@ ul {
   text-transform: uppercase;
 }
 
+.plan .wrap .plan-box .plan-box-item {
+  background-color: #f5faff;
+  padding: 46px 80px;
+}
+
 .plan-box-item h3 {
   font-size: 70px;
   font-weight: 800;
   color: #000958;
+  text-align: center;
+  margin-bottom: 22px;
 }
 
 .plan-box-item h3 .span1 {
@@ -353,11 +409,29 @@ ul {
   color: #7b8ab2;
 }
 
+.plan-box-item p {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
 .plan-box-item p strong {
   font-size: 14px;
   font-weight: 800;
   color: #1085e4;
+  letter-spacing: 2px;
   text-transform: uppercase;
+  text-align: center;
+}
+
+.plan .wrap .plan-box .plan-box-item ul {
+  font-size: 14px;
+  font-weight: 400;
+  color: #8085b1;
+  line-height: 40px;
+  text-align: center;
+  list-style-type: none;
+  padding: 0 20px;
+  margin-bottom: 50px;
 }
 
 .plan-box-item a {
@@ -365,6 +439,7 @@ ul {
   font-weight: 800;
   color: #8085b1;
   text-transform: uppercase;
+  text-align: center;
   letter-spacing: 1.2px;
   background-color: #f5faff;
   border: 1px solid #dce1e5;
@@ -372,33 +447,53 @@ ul {
   padding: 13px 42px;
 }
 
+.plan .wrap .plan-box .plan-box-item-active {
+  background-color: #192b59;
+  padding: 46px 80px;
+}
+
 .plan-box-item-active h3 {
   font-size: 70px;
   font-weight: 800;
   color: #fff;
+  text-align: center;
+  margin-bottom: 22px;
 }
 
-.plan-box-item-active h3 span1 {
+.plan-box-item-active h3 .span1 {
   font-size: 20px;
   font-weight: 400;
   color: #fff;
 }
 
-.plan-box-item-active h3 span2 {
+.plan-box-item-active h3 .span2 {
   font-size: 20px;
   font-weight: 400;
-  color: #400;
+  color: #7b8ab2;
 }
+
+.plan-box-item-active p {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
 .plan-box-item-active p strong {
   font-size: 14px;
   font-weight: 800;
   color: #fff;
+  letter-spacing: 2px;
   text-transform: uppercase;
 }
 
 .plan-box-item-active ul{
+  font-size: 14px;
+  font-weight: 400;
   color: #fff;
+  line-height: 40px;
+  text-align: center;
   list-style-type: none;
+  margin-bottom: 50px;
+  padding: 0 20px;
 }
 
 .plan-box-item-active a {
@@ -406,16 +501,24 @@ ul {
   font-weight: 800;
   color: #fff;
   text-transform: uppercase;
+  text-align: center;
   letter-spacing: 1.2px;
   background-color: #1a88e1;
   padding: 13px 42px;
   border-radius: 30px;
 }
 
+.plan .wrap .plan-box {
+  display: flex;
+  justify-content: space-between;
+}
+
 .team h2 {
   font-size: 40px;
   font-weight: 400;
   color: #fff;
+  line-height: 60px;
+  text-align: center;
 }
 
 .team h2 span {
