@@ -186,10 +186,63 @@ ul {
   display: block;
 }
 
+.grid-screen {
+  display: grid;
+  grid-template-areas: "a b c"
+                       "d b c"
+                       "d e f"
+                       "g e f"
+                       "g h h";
+  max-width: 1110px;
+  padding: 100px 0 115px;
+  margin: 0 auto;
+}
+
+.features-screen .grid-screen .grid-element {
+  text-align: center;
+  box-shadow: 7px 7px 5px #f5f5f5;
+  padding: 80px 0 70px;
+  margin: 5px 16px;
+}
+
+.features-screen .grid-screen .grid-title {
+  grid-area: a;
+}
+
+.features-screen .grid-screen .grid-element-1 {
+  grid-area: b;
+}
+
+.features-screen .grid-screen .grid-element-2 {
+  grid-area: c;
+}
+
+.features-screen .grid-screen .grid-element-3 {
+  grid-area: d;
+}
+
+.features-screen .grid-screen .grid-element-4 {
+  grid-area: e;
+}
+
+.features-screen .grid-screen .grid-element-5 {
+  grid-area: f;
+}
+
+.features-screen .grid-screen .grid-element-6 {
+  grid-area: g;
+}
+
+.features-screen .grid-screen .grid-text {
+  grid-area: h;
+  padding: 30px 0 0 15px;
+}
+
 .grid-screen h2 {
   font-size: 40px;
   font-weight: 800;
   color: #192b59;
+  line-height: 55px;
 }
 
 .grid-screen h2 span {
@@ -199,10 +252,69 @@ ul {
   text-transform: uppercase;
 }
 
+.features-screen .grid-screen .grid-element .image-icon {
+  padding-bottom: 40px;
+}
+
+.features-screen .grid-screen .grid-element .image-icon-1 {
+  background-image: url(../img/features-2.jpg);
+  background-repeat: no-repeat;
+  width: 73px;
+  height: 79px;
+  display: block;
+  margin: 0 auto;
+}
+
+.features-screen .grid-screen .grid-element .image-icon-2 {
+  background-image: url(../img/features-3.jpg);
+  background-repeat: no-repeat;
+  width: 89px;
+  height: 85px;
+  display: block;
+  margin: 0 auto;
+}
+
+.features-screen .grid-screen .grid-element .image-icon-3 {
+  background-image: url(../img/features-1.jpg);
+  background-repeat: no-repeat;
+  width: 79px;
+  height: 82px;
+  display: block;
+  margin: 0 auto;
+}
+
+.features-screen .grid-screen .grid-element .image-icon-4 {
+  background-image: url(../img/features-5.jpg);
+  background-repeat: no-repeat;
+  width: 85px;
+  height: 90px;
+  display: block;
+  margin: 0 auto;
+}
+
+.features-screen .grid-screen .grid-element .image-icon-5 {
+  background-image: url(../img/features-6.jpg);
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 87px;
+  display: block;
+  margin: 0 auto;
+}
+
+.features-screen .grid-screen .grid-element .image-icon-6 {
+  background-image: url(../img/features-4.jpg);
+  background-repeat: no-repeat;
+  width: 102px;
+  height: 92px;
+  display: block;
+  margin: 0 auto;
+}
+
 .grid-element h3 {
   font-size: 20px;
   color: #192b59;
   font-weight: 600;
+  margin-bottom: 30px;
 }
 
 .grid-element a {
@@ -210,6 +322,7 @@ ul {
   color: #1085e4;
   font-weight: 400;
   text-decoration: none;
+  margin-top: 30px;
 }
 
 .grid-screen .qoute {
@@ -274,6 +387,23 @@ ul {
   max-width: 420px;
 }
 
+.robot-form .wrap .robot-box .robot-form-text .subcribe {
+  position: relative;
+}
+
+.robot-form .wrap .robot-box .robot-form-text .subcribe input{
+  color: #b1c3ee;
+  background-color: transparent;
+  border: 2px solid #4571c0;
+  border-radius: 45px;
+  padding: 20px 170px 20px 40px;
+  display: block;
+  outline: none;
+  margin-top: 40px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
 .robot-form-text button {
   font-size: 11px;
   font-weight: 600;
@@ -284,13 +414,41 @@ ul {
   padding: 13px 35px;
   border-radius: 30px;
   border: 0px;
-  margin-top: 20px;
+  outline: none;
+  position: absolute;
+  top: 9px;
+  right: 9px;
 }
 
 .robot-form-text button:hover {
   color: #1085e4;
   background-color: #cbdbe8;
   border: 0px;
+}
+
+.screenshot-2 {
+  background-image: url(../img/screenshot-2-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: flex-start;
+  padding: 120px 0 125px 0;
+}
+
+.screenshot-2 img {
+
+}
+
+.screenshot-2 .screenshot-block {
+  max-width: 630px;
+}
+
+.screenshot-2 .screenshot-block .icon {
+  background-image: url(../img/icon-screen.png);
+  width: 60px;
+  height: 60px;
+  display: block;
+  margin-bottom: 40px;
 }
 
 .screenshot-2 h2 {
@@ -301,10 +459,16 @@ ul {
   max-width: 580px;
 }
 
+.screenshot-2 .screenshot-block dl dd {
+  line-height: 26px;
+}
+
 .screenshot-2 dl dt {
   font-size: 16px;
   color: #5a6789;
   font-weight: 800;
+  line-height: 32px;
+  padding-top: 50px;
 }
 
 .fun-facts {
